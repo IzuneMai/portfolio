@@ -1,0 +1,70 @@
+@font-face {font-family: "symphonic"; src: url("//db.onlinewebfonts.com/t/3d7f53936d72e1e20a3edba1eb907cf5.eot");
+    src:url("//db.onlinewebfonts.com/t/3d7f53936d72e1e20a3edba1eb907cf5.eot?#iefix") format("embedded-opentype"),
+        url("//db.onlinewebfonts.com/t/3d7f53936d72e1e20a3edba1eb907cf5.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3d7f53936d72e1e20a3edba1eb907cf5.woff") format("woff"),
+        url("//db.onlinewebfonts.com/t/3d7f53936d72e1e20a3edba1eb907cf5.ttf") format("truetype"),
+        url("//db.onlinewebfonts.com/t/3d7f53936d72e1e20a3edba1eb907cf5.svg#symphonic") format("svg"); }
+
+
+body{
+    background-color: rgb(22, 22, 22);
+    margin: 0;
+    padding: 0;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#navbar {
+    background-color: rgb(32, 32, 32);
+    position: fixed;
+    top: -50px;
+    width: 100%;
+    transition: top 0.3s;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #navbar a {
+
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+  
+  #navbar a:hover {
+    background-color: rgb(109, 0, 0);
+    color: rgb(255, 255, 255);
+    
+  }
+  
+  .nav-left, .nav-right{
+    display: flex;
+  }
+
+
+
+h1 {
+    font-family: 'Symphonic', sans-serif;
+    font-size: 50px;
+    color: rgb(255, 0, 0) ;
+    text-align: center;
+    margin-top: 10px;
+}
+
+P{
+    font-family: 'Symphonic', sans-serif;
+    font-size: 50px;
+    color: rgb(109, 0, 0) ;
+    text-align: center;
+    margin-top: 50px; 
+}
+
+.text{
+    padding:15px 15px 2500px;font-size:30px
+}
+
