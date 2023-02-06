@@ -1,0 +1,31 @@
+.about_sect{
+    margin-top: 10em;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(31, 31, 31);;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.6);
+}
+
+
+h2{
+    font-family: 'Symphonic', sans-serif;
+    font-size: 2.5em;
+    padding: 10px 40px;
+    border-radius: 3px 3px 0 0 ;
+    background-color: #c90000;
+    color: #000000;
+    position: relative;
+    height: 50px;
+  }
+  
+  a{
+    font-family: Andale Mono, monospace;
+    padding: 10px 10px;
+    font-size: 1.3em;
+    border-radius: 3px 3px 3px 3px;
+    color: #c90000;
+
+  }

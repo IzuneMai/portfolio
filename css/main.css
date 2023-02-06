@@ -5,23 +5,53 @@
         url("//db.onlinewebfonts.com/t/3d7f53936d72e1e20a3edba1eb907cf5.svg#symphonic") format("svg"); }
 
 
-body{
-    background-color: rgb(22, 22, 22);
-    margin: 0;
-    padding: 0;
-
+        
+* {
+  margin: 0;
+  padding: 0;
 }
 
-
+body{
+    background-color: rgb(22, 22, 22);  
+}
 
 
 html{
     scroll-behavior: smooth;
+}
 
+html,
+body {
+  height: 100%;
+}
+
+
+footer{
+  background-color: rgb(43, 43, 43);
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  margin-bottom: -50px;
+}
+
+
+.wrapper {
+  display: table;
+  height: 100%;
+}
+
+.content {
+  display: table-row;
+  height: 100%;
 }
 
 
 
+/* menu */
 #navbar {
     background-color: rgb(32, 32, 32);
     position: fixed;
@@ -30,6 +60,7 @@ html{
     transition: top 0.3s;
     display: flex;
     justify-content: space-between;
+    margin-left: -2px;
   }
   
   #navbar a {
@@ -54,59 +85,50 @@ html{
 
 
 
+/* text */
 h1 {
     font-family: 'Symphonic', sans-serif;
-    display: flex;
-    flex-direction: column;
-    font-size: 50px;
+    font-size: 60px;
     color: rgb(209, 0, 0) ;
     text-align: center;
-    margin-top: -2px;
-
+    margin-top: 10px;
+    z-index: 1;
+    padding: 10px 10px;
 }
 
-h2{
-    font-family: 'Symphonic', sans-serif;
-    display: flex;
-    flex-direction: column;
-    font-size: 50px;
-    color: rgb(209, 0, 0) ;
-    text-align: center;
-    margin-top: 50px; 
-}
 
-.size{
-    padding:1px 1px 1700px;
-}
 
-footer{
-  background-color: rgb(43, 43, 43);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+.icon{
+  width: 50px;
+  height: 40px;
   padding: 20px;
 }
 
-img{
-  width: 50px;
-  height: 40px;
-}
 
-
-header {
+.bg{
   position: relative;
-  background: url("/img/ghotic.jpg") no-repeat center / cover;
+  background: url('/img/ghotic.jpg') no-repeat center / cover;
   z-index: 0;
+  width: 100%;
+  height: 100%;
+  margin-top: -10px;
 }
 
-header::after {
-
+.bg::after {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+  background-color: rgba(26, 26, 26, 0.8);
   z-index: -1;
-  background-color: rgba(43, 43, 43, 0.8);
+}
+
+
+.conteiner{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: space-evenly;
 }
