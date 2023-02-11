@@ -7,8 +7,3 @@ function scrollFunction() {
         document.getElementById("navbar").style.top = "-50px";
     }
 }
-
-var i = 0;
-var txt = 'Lorem ipsum typing effect!'; /* The text */
-var speed = 50; /* The speed/duration of the effect in milliseconds */
-
